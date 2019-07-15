@@ -1,0 +1,37 @@
+O metodo para criar uma coesão entre os arquivos do meu programa
+usar um arquivo em cada pasta chamado conector_*.py
+com 
+exemplo
+import os, sys
+os.path.abspath("conector_projeto.py")
+'/home/dudu/Docmentos/MESTRADO/cáclculo-numerico pc/aula14/projeto/conector_projeto"
+caminho_para_arquivo ='/home/dudu/Docmentos/MESTRADO/cáclculo-numerico pc/aula14/projeto"
+os.path.dirname(os.path.abspath("conector_projeto.py"))
+caminho_raiz = os.path.dirname(os.path.abspath("conector_projeto.py"))
+
+
+tem que ser observar se conseguimos ir de arquivo para aquivos, garantindo coesão
+
+tenho que pegar aquivio que intedeendente:
+########################################
+fato interssante oberter uma certa linha 
+sed -n 'linhax,linhayp' arquivo
+sed -n '12,13p' levantargrafico.py
+########################################
+No nosso problema polinomiointepolacao
+
+metodo 1 --> deu erro 
+import sys
+sys.path.append("../")
+print(sys.path())
+
+metodo2 --> a testar
+import sys, os 
+
+
+
+
+
+
+
+
